@@ -72,8 +72,17 @@ footer {
   font-family: 'Barlow', sans-serif;
 }
 
+ input {
+  padding 10px;
+}
+
 .sbs {
   display: flex;
+  flex-direction: row;
+}
+
+.n {
+  padding-left: 40px;
 }
 
 

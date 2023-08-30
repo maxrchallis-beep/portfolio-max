@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 
 header {
     background-color: #000;
@@ -176,12 +177,12 @@ ul {
   }
   
   a {
-    font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Barlow', sans-serif;
     font-size: 2.5em;
   }
   
   .link-one {
-    color: #ff0000;
+    color: #3686e9;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
     line-height: 1em;
   }
@@ -201,7 +202,7 @@ ul {
     height: 100%;
     top: 0;
     right: 0;
-    background-color: #ff0000;
+    background-color: #3686e9;
   
     clip-path: circle(0% at 50% calc(50%));
     transition: clip-path 1s cubic-bezier(0.65, 0, 0.35, 1);
@@ -367,7 +368,7 @@ ul {
   }
   
   .link-three {
-    color: #f2ff00;
+    color: #ff0000;
   }
   
   .link-three::after {
@@ -393,7 +394,7 @@ ul {
       20% 20%
     );
   
-    background-color: #f2ff00;
+    background-color: #ff0000;
   }
   
   .link-three:hover::after {
@@ -423,7 +424,7 @@ ul {
       80% 80%
     );
   
-    background-color: #f2ff00;
+    background-color: #ff0000;
   }
   
   .link-three:hover::before {

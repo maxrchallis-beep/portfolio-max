@@ -432,29 +432,6 @@ font-family: 'Barlow', sans-serif;
   }
   
 /* new */ 
-
- ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  /* Style for the navigation */
-  .nav {
-    background-color: #333;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-
-  /* Style for the main navigation links */
-  .nav > ul > li > a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-  }
-
   /* Style for the dropdown menu */
   .dropdown {
     position: relative;

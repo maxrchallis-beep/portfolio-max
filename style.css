@@ -21,6 +21,7 @@ body {
   a {
     font-family: 'Barlow', sans-serif;
     font-size: 2.5em;
+    text-decoration: none;
   }
 
 p {
@@ -28,14 +29,13 @@ p {
     margin: 0 auto;
 }
 
-h1 a {
-    font-size: 60px;
+h1 {
+     font-size: 60px;
     color: white;
     text-align: center;
     padding-bottom: 0px;
-  padding-top: 0px;
-  font-family: 'Zen Tokyo Zoo', cursive;
-  text-decoration: none;
+    padding-top: 0px;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 h2 {
@@ -45,6 +45,15 @@ h2 {
     padding-bottom: 0px;
   padding-top: 40px;
 	font-family: 'Unica One', cursive;
+}
+
+h1 a {
+     font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
   
   .parallax-container {

@@ -155,6 +155,12 @@ nav ul {
     align-items: center;
 }
 
+.gd {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-evenly;
+}
+
  .gd ul li {
   list-style-type: none;
   margin: 0;
@@ -439,11 +445,16 @@ nav ul {
     text-align: right;
   }
 
+.dropdown:hover {
+  display: flex;
+}
+
   .dropdown:hover .dropdown-content {
     display: block;
     padding: 10px;
-    
   }
+
+
 
   /* Style for the dropdown menu items */
   .dropdown-content > li > a {

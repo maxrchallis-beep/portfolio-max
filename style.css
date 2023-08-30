@@ -76,6 +76,13 @@ footer {
   padding: 6px;
 }
 
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .sbs {
   display: flex;
   flex-direction: row;
@@ -148,12 +155,7 @@ footer a:hover {
     color: white;
 }
 
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
+
 
 .gd {
   display: flex;
@@ -445,15 +447,10 @@ nav ul {
     text-align: right;
   }
 
-.dropdown:hover {
-  display: flex;
-}
-
   .dropdown:hover .dropdown-content {
     display: block;
     padding: 10px;
   }
-
 
 
   /* Style for the dropdown menu items */

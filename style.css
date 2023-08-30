@@ -441,7 +441,7 @@ font-family: 'Barlow', sans-serif;
     display: none;
     position: absolute;
     background-color: #555;
-    min-width: 200px;
+    width: 280px;
     z-index: 1;
   }
 
@@ -458,5 +458,8 @@ font-family: 'Barlow', sans-serif;
   }
 
   .dropdown-content > li > a:hover {
-    background-color: #444;
+    background-color: yellow;
+    color: black;
   }
+
+

@@ -442,15 +442,21 @@ footer a:hover {
     display: none;
     position: absolute;
     background-color: black;
-    width: 280px;
+    width: 1600px;
     z-index: 9999;
-    text-align: right;
+    text-align: left;
   }
 
   .dropdown:hover .dropdown-content {
     display: block;
     padding: 10px;
   }
+
+/* Style for the dropdown menu items */
+  .dropdown-content li {
+    display: inline-block;
+  }
+
 
 
   /* Style for the dropdown menu items */

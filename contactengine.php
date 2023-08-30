@@ -8,6 +8,7 @@ $Subject = "Contact form from Max's Design Portfolio.";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Email = Trim(stripslashes($_POST['Email'])); 
 $Message = Trim(stripslashes($_POST['Message'])); 
+$Request = Trim(stripslashes($_POST['Request'])); 
 
 // validation
 $validationOK=true;
@@ -26,6 +27,9 @@ $Body .= $Email;
 $Body .= "\n";
 $Body .= "Message: ";
 $Body .= $Message;
+$Body .= "\n";
+$Body .= "Request: ";
+$Body .= $Request;
 $Body .= "\n";
 
 // send email 

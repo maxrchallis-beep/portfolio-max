@@ -18,6 +18,7 @@ body {
     position: relative;
     height: 1080px;
     overflow: hidden;
+        z-index: -9999;
   }
   
   .parallax-video {
@@ -40,6 +41,7 @@ body {
     text-align: center;
     color: white;
     font-size: 24px;
+        z-index: -9999;
   }
 
 h1 {
@@ -450,7 +452,7 @@ font-family: 'Barlow', sans-serif;
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #555;
+    background-color: black;
     width: 280px;
     z-index: 9999;
     text-align: right;
@@ -458,7 +460,8 @@ font-family: 'Barlow', sans-serif;
 
   .dropdown:hover .dropdown-content {
     display: block;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   /* Style for the dropdown menu items */

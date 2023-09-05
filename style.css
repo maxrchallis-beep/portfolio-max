@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
+
 header {
     background-color: #000000;
     padding: 20px 20px 20px 20px;
@@ -435,11 +436,13 @@ footer a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: 500px;
+    right: -292px;
     background-color: black;
-    width: 1600px;
+    width: 1980px;
     z-index: 9999;
-    text-align: left;
+    text-align: center;
+    margin: auto;
+    padding
   }
 
   .dropdown:hover .dropdown-content {

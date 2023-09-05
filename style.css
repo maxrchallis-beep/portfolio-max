@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 header {
@@ -180,9 +181,10 @@ footer a:hover {
   }
   
   .link-one {
-    color: #3686e9;
+    color: #E7B274;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
     line-height: 1em;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .link-one:hover {
@@ -302,8 +304,9 @@ footer a:hover {
   }
   
   .link-two {
-    color: #3686e9;
+    color: #E7B274;
     transition: color 1s cubic-bezier(0.32, 0, 0.67, 0);
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .link-two:hover {
@@ -367,6 +370,7 @@ footer a:hover {
   
   .link-three {
     color: #ff0000;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .link-three::after {
@@ -433,17 +437,19 @@ footer a:hover {
   /* Style for the dropdown menu */
   .dropdown {
     position: relative;
+    
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
-    right: -310px;
-    background-color: yellow;
+    right: -324px;
+    background-color: #3686e9;
     width: 2000px;
     z-index: 9999;
     text-align: center;
     margin: auto;
+    
 
   }
 
@@ -457,6 +463,7 @@ footer a:hover {
 /* Style for the dropdown menu items */
   .dropdown-content li {
     display: inline-block;
+    
 }
 
  .gd ul li {
@@ -468,10 +475,11 @@ footer a:hover {
 
   /* Style for the dropdown menu items */
   .dropdown-content > li > a {
-    color: black;
+    color: white;
     padding: 10px;
     text-decoration: none;
     display: block;
+        font-family: 'Bebas Neue', sans-serif;
   }
 
   .dropdown-content > li > a:hover {

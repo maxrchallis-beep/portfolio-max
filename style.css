@@ -17,6 +17,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     list-style-type: none;
+  width: 100%
   }
 
   a {
@@ -175,6 +176,7 @@ footer a:hover {
     height: 100%;
     position: relative;
     z-index: 0;
+    padding: 20px 0px;
   }
   
   .link-one {
@@ -436,18 +438,20 @@ footer a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: -292px;
-    background-color: black;
-    width: 1980px;
+    right: -310px;
+    background-color: yellow;
+    width: 2000px;
     z-index: 9999;
     text-align: center;
     margin: auto;
-    padding
+
   }
 
   .dropdown:hover .dropdown-content {
     display: block;
     padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
 /* Style for the dropdown menu items */
@@ -464,15 +468,15 @@ footer a:hover {
 
   /* Style for the dropdown menu items */
   .dropdown-content > li > a {
-    color: white;
+    color: black;
     padding: 10px;
     text-decoration: none;
     display: block;
   }
 
   .dropdown-content > li > a:hover {
-    background-color: yellow;
-    color: black;
+    background-color: black;
+    color: white;
   }
 
 

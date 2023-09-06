@@ -107,22 +107,7 @@ h1 a {
     font-family: 'Zen Tokyo Zoo', cursive;
 }
 
-footer a {
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
-    font-size: 12px;
-     font-family: 'Barlow', sans-serif;
-}
 
-nav li a {
-    text-decoration: none;
-}
-
-
-footer a:hover {
-  color: #ff9900;
-}
   
   .parallax-container {
     position: relative;
@@ -195,8 +180,8 @@ footer a:hover {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: -324px;
-    background-color: #3686e9;
+    right: -280px;
+    background-color: #54b3d6;
     width: 2000px;
     z-index: 9999;
     text-align: center;
@@ -225,29 +210,28 @@ footer a:hover {
 }
 
 
-  /* Style for the dropdown menu items */
-  .dropdown-content > li > a {
-    color: white;
-    padding: 10px;
+.dropdown-content a:hover::before{
+  width: 100%;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+    font-size: 12px;
+     font-family: 'Barlow', sans-serif;
+}
+
+nav li a {
     text-decoration: none;
-    display: block;
-        font-family: 'Bebas Neue', sans-serif;
-  }
-
-  .dropdown-content > li > a:hover {
-    background-color: black;
-    color: white;
-  }
-
-
-/* new */
+}
 
 .dropdown-content a {
   background-image: linear-gradient(
     to right,
-    #54b3d6,
-    #54b3d6 50%,
-    #000 50%
+    #3686e9,
+    #3686e9 50%,
+    white 50%
   );
   background-size: 200% 100%;
   background-position: -100%;
@@ -259,9 +243,15 @@ footer a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+footer a:hover {
+  color: #ff9900;
+}
+
+
+
 .dropdown-content a:before{
   content: '';
-  background: #54b3d6;
+  background: yellow;
   display: block;
   position: absolute;
   bottom: -3px;
@@ -271,12 +261,50 @@ footer a:hover {
   transition: all 0.3s ease-in-out;
 }
 
+  /* Style for the dropdown menu items */
+  .dropdown-content > li > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+        font-family: 'Bebas Neue', sans-serif;
+  }
+
 .dropdown-content a:hover {
  background-position: 0;
 }
 
-.dropdown-content a:hover::before{
-  width: 100%;
+.dropdown-content > li > a:hover {
+    background-color: black;
+    color: white;
+  }
+
+/* new */
+
+.link-container a {
+  color: inherit;
+  text-decoration: none;
 }
 
+.link-container a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
 
+.link-container a:hover {
+  background-size: 0 3px, 100% 3px;
+}

@@ -178,7 +178,7 @@ h1 a {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: -266px;
+    right: -324px;
     background-color: #54b3d6;
     width: 2100px;
     z-index: 9999;

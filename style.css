@@ -434,8 +434,8 @@ button .button-54 {
 
 .arrow{
   position:relative;
-  width:30px;
-  height: 30px;
+  width:50px;
+  height: 50px;
   cursor:pointer;
 /*   border:solid 1px white; */
   transition:0.5s;
@@ -456,7 +456,7 @@ button .button-54 {
   width: 30px;
   height: 15px;
 /*   border:solid 1px;  */
-  top:-1px;
+  top: 8.5px;
   border-bottom:solid 2px;
   transform:translatex(4px);
  

@@ -109,9 +109,9 @@ h1 a {
   
   .parallax-container {
     position: relative;
-    height: 1080px;
+    width: 2000px;
     overflow: hidden;
-        z-index: -9999;
+    z-index: -9999;
   }
   
   .parallax-video {
@@ -284,7 +284,7 @@ footer a:hover {
   text-decoration: none;
 }
 
-.link-container a {
+/* .link-container a {
   background:
     linear-gradient(
       to right,
@@ -301,7 +301,7 @@ footer a:hover {
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 1s;
-}
+} */
 
 .link-container a:hover {
   background-size: 0 3px, 100% 3px;
@@ -339,6 +339,7 @@ footer a:hover {
 
 .button:hover::before {
   transform: scale(1);
+  border-radius: 20px;
 }
 
 .button span {

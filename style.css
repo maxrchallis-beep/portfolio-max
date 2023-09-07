@@ -179,9 +179,9 @@ h1 a {
   .dropdown-content {
     display: none;
     position: absolute;
-    right: -324px;
+    right: -600px;
     background-color: #54b3d6;
-    width: 2100px;
+    width: 2400px;
     z-index: 9999;
     text-align: center;
     margin: auto;

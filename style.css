@@ -36,7 +36,7 @@ p {
 }
 
 h1 {
-     font-size: 180px;
+     font-size: 60px;
     color: white;
     text-align: center;
     padding-bottom: 0px;
@@ -100,7 +100,7 @@ nav ul {
 
 
 h1 a {
-     font-size: 60px;
+     font-size: 140px;
     color: white;
     text-align: center;
     padding-bottom: 0px;
@@ -285,24 +285,6 @@ footer a:hover {
   text-decoration: none;
 }
 
-/* .link-container a {
-  background:
-    linear-gradient(
-      to right,
-      white,
-      white
-    ),
-    linear-gradient(
-      to right,
-      yellow,
-      yellow,
-      yellow
-  );
-  background-size: 100% 3px, 0 3px;
-  background-position: 100% 100%, 0 100%;
-  background-repeat: no-repeat;
-  transition: background-size 1s;
-} */
 
 .link-container a:hover {
   background-size: 0 3px, 100% 3px;

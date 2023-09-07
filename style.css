@@ -109,7 +109,7 @@ h1 a {
   
   .parallax-container {
     position: relative;
-    width: 2000px;
+    height: 1080px;
     overflow: hidden;
     z-index: -9999;
   }

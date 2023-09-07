@@ -1,9 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 
@@ -399,11 +399,14 @@ footer a:hover {
   padding: 20px;
   flex-direction: row;
     justify-content: center;
-    font-family: 'Bebas Neue', sans-serif;
+}
+
+button .button-54 {
+      font-family: 'Bebas Neue', sans-serif;
 }
 
 .button-54 {
-  font-size: 1px;
+  font-size: 16px;
   text-decoration: none;
   color: grey;
   cursor: pointer;
@@ -423,6 +426,12 @@ footer a:hover {
   box-shadow: 0px 0px 0px 0px;
   top: 5px;
   left: 5px;
+}
+
+.barrow {
+  color: white;
+  font-size: 60px;
+  padding-left: 300px;
 }
 
 @media (max-width: 768px) {

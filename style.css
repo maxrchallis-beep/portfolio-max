@@ -428,7 +428,11 @@ button .button-54 {
   left: 5px;
 }
 
-.barrow{
+.arr {
+  padding-left: 300px;
+}
+
+.arrow{
   position:relative;
   width:30px;
   height: 30px;
@@ -436,34 +440,36 @@ button .button-54 {
 /*   border:solid 1px white; */
   transition:0.5s;
   overflow:hidden;
-    padding-left: 300px;
+
 }
 
-.barrow:hover{
+.arrow:hover{
 /*  animation:borderAni 5s cubic-bezier(0, 0.6, 1, 0.4); */
       border:solid 2px white; 
     border-radius:50%;
 }
-.barrow:after{
+.arrow:after{
   position:absolute;
   display:block;
   content:"";
   color:white;
-  width: 20px;
+  width: 30px;
   height: 15px;
 /*   border:solid 1px;  */
   top:-1px;
   border-bottom:solid 2px;
   transform:translatex(4px);
+ 
+  
 }
 
-.barrow:before{
+.arrow:before{
   position:absolute;
   display:block;
   content:"";
   color:white;
-  width: 8px;
-  height: 8px;
+  width: 20px;
+  height: 20px;
 /*   border:solid 1px;  */
   border-top:solid 2px;
   border-left:solid 2px;
@@ -472,12 +478,13 @@ button .button-54 {
   transform-origin:0% 0%;
   transform:rotatez(-45deg);
 
+
 }
-.barrow:hover:before{
+.arrow:hover:before{
  animation: aniArrow01 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
 }
 
-.barrow:hover:after{
+.arrow:hover:after{
  animation: aniArrow02 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
 }
 

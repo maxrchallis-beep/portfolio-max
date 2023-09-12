@@ -173,6 +173,16 @@ h1 a {
       align-items: center;
 }
 
+.about p {
+    width: 1000px;
+    color: white;
+  
+}
+
+.about {
+  margin: 0;
+}
+
 .gd {
   display: flex;
   flex-direction: row;
@@ -569,6 +579,7 @@ button .button-54 {
   width: 400px;
   padding-left: 80px;
   float: left;
+  padding-right: 40px;
 }
 
 @media (max-width: 768px) {

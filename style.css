@@ -40,6 +40,10 @@ p a {
   color: yellow;
 }
 
+p ul li a {
+   font-size: 18px;
+}
+
 h1 {
      font-size: 60px;
     color: white;
@@ -75,6 +79,11 @@ form {
 iframe {
   padding-right: 100px;
   float: right;
+}
+
+.subhead::first-letter {
+  initial-letter: 4;
+  padding-right: 6px;
 }
 
 /* Style for the footer */

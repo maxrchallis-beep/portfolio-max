@@ -565,6 +565,12 @@ button .button-54 {
   }
 }
 
+.aimg {
+  width: 400px;
+  padding-left: 80px;
+  float: left;
+}
+
 @media (max-width: 768px) {
   .button-54 {
     padding: 0.25em 0.75em;

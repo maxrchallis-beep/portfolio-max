@@ -77,8 +77,9 @@ form {
 }
 
 iframe {
-  padding-right: 100px;
+  margin-right: 100px;
   float: right;
+  margin-left: 40px;
 }
 
 .subhead::first-letter {
@@ -174,9 +175,8 @@ h1 a {
 }
 
 .about p {
-    width: 1000px;
     color: white;
-  
+  padding-left:180px;
 }
 
 .about {
@@ -577,9 +577,16 @@ button .button-54 {
 
 .aimg {
   width: 400px;
-  padding-left: 80px;
+  padding-left: 180px;
   float: left;
   padding-right: 40px;
+}
+
+.aimg1 {
+  width: 400px;
+  padding-right: 180px;
+  float: right;
+  padding-left: 40px;
 }
 
 @media (max-width: 768px) {

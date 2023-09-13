@@ -1,6 +1,7 @@
         function showView1() {
             document.getElementById("view1").style.display = "block";
             document.getElementById("view2").style.display = "none";
+          this.classList.add('underlined');
         }
 
         function showView2() {

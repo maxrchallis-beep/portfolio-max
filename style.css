@@ -529,7 +529,9 @@ transition: 0.3s;
 }
 }
 
-
+.button1.selected {
+    background-color: #2980b9;
+}
 
 
 .button-54:active {
@@ -661,3 +663,5 @@ transition: 0.3s;
     padding: 0.25em 0.75em;
   }
 }
+
+

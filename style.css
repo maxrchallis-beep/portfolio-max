@@ -55,12 +55,21 @@ h1 {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     text-align: center;
     padding-bottom: 0px;
   padding-top: 40px;
 	font-family: 'Unica One', cursive;
+}
+
+h3 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+  padding-top: 40px;
+	font-family: 'Bebas Neue', sans-serif;
 }
 
 article {
@@ -478,7 +487,9 @@ button .button-54 {
 }
 
 .vcont {
-  margin: 0;
+  display: flex;
+      flex-direction: row;
+    justify-content: center;
 }
 
 .button-55 {

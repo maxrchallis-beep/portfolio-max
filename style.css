@@ -477,6 +477,16 @@ button .button-54 {
   touch-action: manipulation;
 }
 
+.button-55 {
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px 30px;
+  padding: 0.25em 0.5em;
+  position: relative;
+  touch-action: manipulation;
+
+}
 
 
 .button-54:active {
@@ -577,13 +587,11 @@ button .button-54 {
 
 #view1 {
   width: 1100px;
-  margin: 0;
-  position:
+  margin: 0 auto;
 }
 
 .dlo p {
   color: white;
-  float: right;
 }
 
 .v1img {

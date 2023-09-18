@@ -75,7 +75,7 @@ h1 {
 
 h2 {
     font-size: 50px;
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 0px;
   padding-top: 40px;
@@ -84,7 +84,7 @@ h2 {
 
 h3 {
     font-size: 60px;
-    color: white;
+    color: black;
     text-align: center;
     padding-bottom: 0px;
   padding-top: 40px;
@@ -92,7 +92,7 @@ h3 {
 }
 
 article {
-  color: white;
+  color: black;
     font-family: 'Raleway', sans-serif;
   font-size: 20px;
 text-align: center;
@@ -161,19 +161,18 @@ h1 a {
 
   .parallax-container {
     position: relative;
-    height: 1080px;
+    height: 700px;
     overflow: hidden;
     z-index: -9999;
   }
   
   .parallax-video {
     position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    min-width: 56%;
+    top: -14%;
+    left: 0;
+    min-width: 76%;
     min-height: 100%;
-    width: 56%;
+    width: 76%;
     z-index: -9999;
   }
   
@@ -194,8 +193,8 @@ h1 a {
   .content1 {
     position: absolute;
     top: 2%;
-    left: 50%;
-    transform: translate(-20%, 86%);
+    left: 40%;
+    transform: translate(-4%, 72%);
     text-align: right;
     color: black;
     font-size: 24px;
@@ -208,7 +207,7 @@ h1 a {
   .content2 {
     position: absolute;
     top: 2%;
-    left: 50%;
+    left: 40%;
     transform: translate(-10%, 230%);
     text-align: right;
     color: black;
@@ -236,7 +235,7 @@ h1 a {
 }
 
 .about p {
-    color: white;
+    color: black;
   padding-left:180px;
 }
 

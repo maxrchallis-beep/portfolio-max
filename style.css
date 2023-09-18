@@ -171,10 +171,9 @@ h1 a {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    min-width: 100%;
+    min-width: 56%;
     min-height: 100%;
-    width: auto;
-    height: auto;
+    width: 56%;
     z-index: -9999;
   }
   
@@ -182,13 +181,13 @@ h1 a {
     position: absolute;
     top: 2%;
     left: 50%;
-    transform: translate(0%, -16%);
+    transform: translate(12%, -6%);
     text-align: right;
     color: black;
     font-size: 24px;
         z-index: -9999;
     background-color: #FCFFE7;
-    padding: 60px;
+    padding: 60px 200px 60px 60px;
     border-radius: 120px;
   }
 
@@ -196,13 +195,27 @@ h1 a {
     position: absolute;
     top: 2%;
     left: 50%;
-    transform: translate(0%, 86%);
+    transform: translate(-20%, 86%);
     text-align: right;
     color: black;
     font-size: 24px;
         z-index: -9999;
     background-color: #FBE3FF;
-    padding: 60px;
+    padding: 60px 200px 60px 60px;
+    border-radius: 120px;
+  }
+
+  .content2 {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-10%, 230%);
+    text-align: right;
+    color: black;
+    font-size: 24px;
+        z-index: -9999;
+    background-color: #E2F4FF;
+    padding: 60px 200px 60px 60px;
     border-radius: 120px;
   }
 

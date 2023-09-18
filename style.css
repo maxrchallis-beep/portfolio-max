@@ -677,15 +677,14 @@ transition: 0.3s;
 }
 
 .card {
-  width: 26rem;
-  height: 38rem;
-  border-radius: 10px;
+  width: 27rem;
+  height: 44rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
+  padding-left: 80px;
 }
 
 .card img {
@@ -745,15 +744,13 @@ transition: 0.3s;
 }
 
 .card1 {
-  width: 24rem;
-  height: 36rem;
-  border-radius: 10px;
+  width: 29rem;
+  height: 43rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
 }
 
 .card1 img {
@@ -813,15 +810,13 @@ transition: 0.3s;
 }
 
 .card2 {
-  width: 24rem;
-  height: 36rem;
-  border-radius: 10px;
+  width: 29rem;
+  height: 43rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
 }
 
 .card2 img {
@@ -881,15 +876,13 @@ transition: 0.3s;
 }
 
 .card3 {
-  width: 24rem;
-  height: 36rem;
-  border-radius: 10px;
+  width: 29rem;
+  height: 43rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
 }
 
 .card3 img {
@@ -949,15 +942,13 @@ transition: 0.3s;
 }
 
 .card4 {
-  width: 24rem;
-  height: 36rem;
-  border-radius: 10px;
+  width: 29rem;
+  height: 43rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
 }
 
 .card4 img {
@@ -1017,15 +1008,13 @@ transition: 0.3s;
 }
 
 .card5 {
-  width: 24rem;
-  height: 36rem;
-  border-radius: 10px;
+  width: 29rem;
+  height: 43rem;
+  border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  color: color-primary-white;
-  box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.2);
-  padding-left: 40px;
+  color: yellow;
 }
 
 .card5 img {

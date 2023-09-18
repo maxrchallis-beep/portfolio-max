@@ -1086,18 +1086,17 @@ transition: 0.3s;
   display : flex;
   align-items : center;
   justify-content : center;
-  flex-warp : warp;
+  flex-wrap : wrap;
   padding : 30px;  
 }
 
 .container .card6 {
   position: relative;
   max-width : 300px;
-  height : 215px;  
+  height : 500px;  
   background-color : #fff;
   margin : 30px 10px;
   padding : 20px 15px;
-  
   display : flex;
   flex-direction : column;
   box-shadow : 0 5px 20px rgba(0,0,0,0.5);
@@ -1105,7 +1104,7 @@ transition: 0.3s;
   border-radius : 15px;
 }
 .container .card6:hover {
-  height : 320px;    
+  height : 600px;    
 }
 
 
@@ -1131,6 +1130,8 @@ transition: 0.3s;
   padding : 10px 15px;
   color : #111111;
   text-align : center;
+  
+  visibility : hidden;
   opacity : 0;
   transition : 0.3s ease-in-out;
     
@@ -1146,4 +1147,11 @@ transition: 0.3s;
 
 .content p {
   color: red;
+  position: absolute;
+  z-index: -1;
+}
+
+.content h3 {
+  font-size: 22px;
+  color: black;
 }

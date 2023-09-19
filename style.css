@@ -13,6 +13,7 @@ header {
     background-color: black;
     padding: 20px 20px 20px 20px;
       z-index: 9999;
+  margin-bottom: 100px;
 }
 
 body {
@@ -135,7 +136,7 @@ nav ul {
     flex-direction: row;
 justify-content: flex-start;
     align-items: center;
-  float: left;
+  list-style: none;
 }
 
 .sbs {
@@ -263,7 +264,6 @@ h1 a {
     position: relative;
     z-index: 0;
     padding: 20px 60px;
-    float: right;
   }
 
   
@@ -392,6 +392,7 @@ footer a:hover {
 .link-container a {
   color: white;
   text-decoration: none;
+  font-size: 16px;
 }
 
 
@@ -488,7 +489,7 @@ footer a:hover {
   content: "";
   position: absolute;
   display: block;
-  border: 2px solid #ffffff;
+  border: 1px solid #ffffff;
   width: 100%;
   height: 0%;
   transition: all 1s ease;

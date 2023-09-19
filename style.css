@@ -1192,6 +1192,7 @@ color: lightblue;
     flex-wrap: wrap;
 } 
 
-.content-blur:hover {
-  filter: blur(5px);
+
+.imgc:hover {
+  backdrop-filter: blur(5px);
 }

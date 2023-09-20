@@ -171,7 +171,7 @@ h1 a {
 
   .parallax-container {
     position: relative;
-    height: 700px;
+    height: 754px;
     overflow: hidden;
     z-index: -9999;
   }
@@ -925,7 +925,7 @@ color: yellow;
 .card:hover .content-blur {
   transition: 1.2 ease-in;
   backdrop-filter: blur(5px);
-    height: 46%;
+    height: 48%;
   width: 100%;
         bottom: 0;
   position: absolute;
@@ -934,7 +934,7 @@ color: yellow;
 .card1:hover .content-blur {
   transition: 1.2 ease-in;
   backdrop-filter: blur(5px);
-    height: 46%;
+    height: 48%;
   width: 100%;
         bottom: 0;
   position: absolute;

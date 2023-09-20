@@ -776,8 +776,8 @@ transition: 0.3s;
 }
 
 .card {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -825,11 +825,11 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card:hover h2 {
-    inset: auto auto 200px -60px;
+    inset: auto auto 200px -40px;
     transition: inset .3s ease-out;
     width: 100%;
 }
@@ -845,8 +845,8 @@ color: yellow;
 }
 
 .card1 {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -894,7 +894,7 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card1:hover h2 {
@@ -969,8 +969,8 @@ color: yellow;
 }
 
 .card2 {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -1019,7 +1019,7 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card2:hover h2 {
@@ -1038,8 +1038,8 @@ color: yellow;
 }
 
 .card3 {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -1088,7 +1088,7 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card3:hover h2 {
@@ -1108,8 +1108,8 @@ color: yellow;
 }
 
 .card4 {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -1158,7 +1158,7 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card4:hover h2 {
@@ -1177,8 +1177,8 @@ color: yellow;
 }
 
 .card5 {
-  width: 34rem;
-  height: 48rem;
+  width: 29rem;
+  height: 42rem;
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
@@ -1226,7 +1226,7 @@ color: yellow;
     inset: auto auto 0px 114px;
     color: inherit;
     text-decoration: none;
-    font-size: 50px;
+    font-size: 38px;
 }
 
 .card5:hover h2 {
@@ -1249,5 +1249,7 @@ color: yellow;
   flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+   width: 90%;
+   margin: auto;
 } 
 

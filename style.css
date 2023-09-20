@@ -42,6 +42,14 @@ p a {
   color: yellow;
 }
 
+.web a {
+    font-size: 30px;
+    color: red;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
 
 h5 {
   text-align: center;

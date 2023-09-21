@@ -1299,3 +1299,11 @@ figcaption {
   column-count: 4;
   column-gap: 10px;
 }
+
+.zoom {
+	transition: transform .2s;
+	margin: 0 auto;
+}
+.zoom:hover {
+	transform: scale(1.3);
+}

@@ -13,7 +13,6 @@ header {
     background-color: black;
     padding: 20px 20px 20px 20px;
       z-index: 9999;
-/* height: 280px; */
 }
 
 body {
@@ -171,19 +170,20 @@ h1 a {
 
   .parallax-container {
     position: relative;
-    height: 754px;
+    height: 540px;
     overflow: hidden;
     z-index: -9999;
   }
   
   .parallax-video {
-    position: absolute;
-    top: -14%;
+position: absolute;
+    top: 0;
     left: 0;
     min-width: 76%;
     min-height: 100%;
     width: 76%;
     z-index: -9999;
+    height: 540px;
   }
   
   .content {

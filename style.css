@@ -1300,6 +1300,24 @@ figcaption {
   column-gap: 10px;
 }
 
+.container1 {
+  column-count: 3;
+  column-gap: 10px;
+}
+
+figure1 {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+figure1 > img {
+  grid-row: 1 / -1;
+  grid-column: 1;
+}
+
 .zoom {
 	transition: transform .2s;
 	margin: 0 auto;

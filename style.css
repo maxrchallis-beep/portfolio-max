@@ -1308,14 +1308,29 @@ figcaption {
 figure1 {
   margin: 0;
   display: grid;
-  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr auto;
   margin-bottom: 10px;
   break-inside: avoid;
 }
 
+figure1 a {
+  color: blue;
+  text-decoration: none;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 figure1 > img {
-  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+figcaption1 {
+  grid-row: 1;
   grid-column: 1;
+  background-color: rgba(255,255,255,.5);
+  padding: .2em .5em;
+  justify-self: start;
+
 }
 
 .zoom {

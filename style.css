@@ -1357,6 +1357,8 @@ figcaption {
     "side-bit card-text card-text card-text";
     margin-bottom: 1.5em;
   width: 40%;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  margin: 10px;
 }
 
 .side-bit {
@@ -1369,9 +1371,10 @@ figcaption {
     margin: 0;
     font-weight: 500;
     font-size: 1.4rem;
-    background-color: yellow;
+    background-color: #A900DC;
     color: white;
     padding: .5em;
+  height:30%;
 }
 
 .card-subtitle {
@@ -1379,9 +1382,11 @@ figcaption {
     margin: 0;
     font-weight: 500;
     font-size: 1.4rem;
-    background-color: yellow;
+    background-color: #A900DC;
     color: white;
     padding: .5em;
+  text-align: left;
+  height: 30%;
 }
 
 .card-text {

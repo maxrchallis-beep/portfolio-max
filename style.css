@@ -1390,3 +1390,34 @@ figcaption {
     text-align: center;
 }
 
+.cardp {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: "side-bit card-title card-title card-title"
+    "side-bit card-text card-text card-text";
+    margin-bottom: 1.5em;
+}
+
+.side-bit {
+    grid-area: side-bit;
+    background-color: #ee8222;
+}
+
+.card-title {
+    grid-area: card-title;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: #64c4b0;
+    color: white;
+    padding: .5em;
+}
+
+.card-text {
+    grid-area: card-text;
+    background-color: #ddecea;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding: 1.5em;
+}
+

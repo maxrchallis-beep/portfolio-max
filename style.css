@@ -167,6 +167,10 @@ h1 a {
   padd
 }
 
+.top {
+  width: 70%;
+  margin: auto;
+}
 
   .parallax-container {
     position: relative;
@@ -1358,9 +1362,11 @@ figcaption {
     "side-bit card-text card-text";
     margin-bottom: 1.5em;
   max-width: 650px;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
   margin: 10px;
 }
+
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
 .side-bit {
     grid-area: side-bit;
@@ -1368,7 +1374,7 @@ figcaption {
 }
 
 .cardme-img {
-  width: 300px;
+  width: 340px;
 }
 
 .card-title {
@@ -1396,19 +1402,17 @@ figcaption {
 
 .card-text {
     grid-area: card-text;
-    background-color: #ddecea;
-    font-size: 0.8rem;
+    font-size: 1.05rem;
     font-weight: 400;
     padding: 1.5em;
 }
 
 .card-q {
     grid-area: card-q;
-    background-color: #ddecea;
     font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
   max-height: 20px;
 }
 

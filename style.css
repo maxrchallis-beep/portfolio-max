@@ -1348,54 +1348,15 @@ figcaption {
   
 }
 
-.cardx {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 860px;
-}
 
-.cardx .text{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.cardx .text img{
-    height: 250px;
-    border-radius: 30%;
-  margin-bottom:2px;
-}
-
-.cardx .text h3{
-    font-size: 40px;
-    font-weight: 400;
-  margin-left: 40px
-}
-
-.cardx .text p:nth-of-type(1){
-    color: rgb(35, 182, 219);
-    font-size: 15px;
-    margin-top: 10px;
-  width: 50px;
-}
-
-.cardx .text p:nth-of-type(2){
-    margin: 10px;
-    width: 90%;
-    text-align: center;
-}
-
-.cardp {
+.cardme {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-areas: "side-bit card-title card-title card-title"
+    grid-template-areas: "side-bit card-subtitle card-title card-title"
+    "side-bit card-q card-q card-q"
     "side-bit card-text card-text card-text";
     margin-bottom: 1.5em;
+  width: 40%;
 }
 
 .side-bit {
@@ -1408,7 +1369,17 @@ figcaption {
     margin: 0;
     font-weight: 500;
     font-size: 1.4rem;
-    background-color: #64c4b0;
+    background-color: yellow;
+    color: white;
+    padding: .5em;
+}
+
+.card-subtitle {
+    grid-area: card-subtitle;
+    margin: 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+    background-color: yellow;
     color: white;
     padding: .5em;
 }
@@ -1421,3 +1392,39 @@ figcaption {
     padding: 1.5em;
 }
 
+.card-q {
+    grid-area: card-q;
+    background-color: #ddecea;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    section .cardme {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 3rem;
+    }
+
+    .cardme {
+        grid-template-areas: 
+        "card-title card-subtitle card-title card-title"
+        "side-bit card-q card-q card-q"
+        "side-bit card-text card-text card-text"
+        "side-bit card-text card-text card-text";
+    }
+
+    .card-title {
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 2rem;
+    }
+    .card-subtitle {
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 2rem;
+    }
+}

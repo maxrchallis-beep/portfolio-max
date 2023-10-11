@@ -1315,9 +1315,14 @@ figcaption {
 .zoom {
 	transition: transform .2s;
 	margin: 0 auto;
+  border: 2px solid #A900DC;
 }
 .zoom:hover {
 	transform: scale(1.3);
+}
+
+.zooml:hover {
+	transform-right: scale(1.3);
 }
 
 .cardx {

@@ -1355,11 +1355,11 @@ figcaption {
 
 .cardme {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-areas: 
-    "side-bit card-subtitle card-title"
-    "side-bit card-q card-q"
-    "side-bit card-text card-text";
+    "side-bit card-subtitle card-title card-b"
+    "side-bit card-q card-q card-b"
+    "side-bit card-text card-text card-b";
     margin-bottom: 1.5em;
   max-width: 650px;
 box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px, rgba(0, 0, 0, 0.1) 1.95px 1.95px 2.6px;
@@ -1374,7 +1374,7 @@ box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px
 }
 
 .cardme-img {
-  width: 340px;
+  width: 400px;
 }
 
 .card-title {
@@ -1414,6 +1414,19 @@ box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px
     text-align: center;
     padding-top: 10px;
   max-height: 20px;
+}
+
+.card-b {
+  grid-area: card-b;
+  max-width: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.cardme:hover + .hide {
+  display: block;
 }
 
 @media screen and (max-width: 550px) {

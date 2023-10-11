@@ -1351,19 +1351,24 @@ figcaption {
 
 .cardme {
     display: grid;
-    grid-template-columns: 2fr 3fr;
-    grid-template-areas: "side-bit card-subtitle card-title card-title"
-    "side-bit card-q card-q card-q"
-    "side-bit card-text card-text card-text";
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: 
+    "side-bit card-subtitle card-title"
+    "side-bit card-q card-q"
+    "side-bit card-text card-text";
     margin-bottom: 1.5em;
-  width: 40%;
+  max-width: 650px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   margin: 10px;
 }
 
 .side-bit {
     grid-area: side-bit;
-    background-color: #ee8222;
+/*     background-color: #ee8222; */
+}
+
+.cardme-img {
+  width: 300px;
 }
 
 .card-title {
@@ -1374,7 +1379,7 @@ figcaption {
     background-color: #A900DC;
     color: white;
     padding: .5em;
-  height:30%;
+    max-height: 20px;
 }
 
 .card-subtitle {
@@ -1386,7 +1391,7 @@ figcaption {
     color: white;
     padding: .5em;
   text-align: left;
-  height: 30%;
+  max-height: 20px;
 }
 
 .card-text {
@@ -1400,10 +1405,11 @@ figcaption {
 .card-q {
     grid-area: card-q;
     background-color: #ddecea;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 500;
     text-align: center;
     padding-top: 5px;
+  max-height: 20px;
 }
 
 @media screen and (max-width: 550px) {

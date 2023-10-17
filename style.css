@@ -86,7 +86,6 @@ h2 {
     color: black;
     text-align: center;
     padding-bottom: 0px;
-  padding-top: 40px;
 	font-family: 'Unica One', cursive;
 }
 
@@ -352,8 +351,8 @@ nav li a {
 .dropdown-content a {
   background-image: linear-gradient(
     to right,
-    #3686e9,
-    #3686e9 50%,
+    #A900DC,
+    #A900DC 50%,
     white 50%
   );
   background-size: 200% 100%;
@@ -454,194 +453,6 @@ footer a:hover {
 }
 
 
-.vcont {
-  display: flex;
-      flex-direction: row;
-    justify-content: center;
-}
-
-.button1 {
-  font-size: 16px;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0px 30px;
-  padding: 0.25em 0.5em;
-  position: relative;
-  touch-action: manipulation;
-  background: transparent;
-  color: black;
-  border: none;
-transition: 0.3s;
-  &:before {
-    content: '';
-    border-bottom: 1px solid black;
-    padding: 0 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    transition: 0.3s;
-}
-
-&:hover:before {
-    width: 100%;
-    padding: 0;
-}
-
-&:active {
-    background: black;
-    color: white;
-    transition: none;
-}
-}
-
-.button1.selected {
-    background-color: #2980b9;
-}
-
-.button2 {
-  font-size: 16px;
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0px 30px;
-  padding: 0.25em 0.5em;
-  position: relative;
-  touch-action: manipulation;
-  background: transparent;
-  color: black;
-  border: none;
-transition: 0.3s;
-  &:before {
-    content: '';
-    border-bottom: 1px solid black;
-    padding: 0 10px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 0;
-    transition: 0.3s;
-}
-
-&:hover:before {
-    width: 100%;
-    padding: 0;
-}
-
-&:active {
-    background: black;
-    color: white;
-    transition: none;
-}
-}
-
-.button2.selected {
-    background-color: #2980b9;
-}
-
-.button-54:active {
-  box-shadow: 0px 0px 0px 0px;
-  top: 5px;
-  left: 5px;
-}
-
-.arr {
-  padding-left: 300px;
-}
-
-.arrow{
-  position:relative;
-  width:50px;
-  height: 50px;
-  cursor:pointer;
-/*   border:solid 1px white; */
-  transition:0.5s;
-  overflow:hidden;
-
-}
-
-.arrow:hover{
-/*  animation:borderAni 5s cubic-bezier(0, 0.6, 1, 0.4); */
-      border:solid 2px white; 
-    border-radius:50%;
-}
-.arrow:after{
-  position:absolute;
-  display:block;
-  content:"";
-  color:white;
-  width: 30px;
-  height: 15px;
-/*   border:solid 1px;  */
-  top: 8.5px;
-  border-bottom:solid 2px;
-  transform:translatex(4px);
- 
-  
-}
-
-.arrow:before{
-  position:absolute;
-  display:block;
-  content:"";
-  color:white;
-  width: 20px;
-  height: 20px;
-/*   border:solid 1px;  */
-  border-top:solid 2px;
-  border-left:solid 2px;
-  top:50%;
-  left:2px;
-  transform-origin:0% 0%;
-  transform:rotatez(-45deg);
-
-
-}
-.arrow:hover:before{
- animation: aniArrow01 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
-}
-
-.arrow:hover:after{
- animation: aniArrow02 1s cubic-bezier(0, 0.6, 1, 0.4) infinite 0.5s;
-}
-
-
-@keyframes aniArrow01 {
-  0% {
-    transform:rotatez(-45deg) translateY(30px) translateX(30px);
-  }
-  100% {
-    transform: rotatez(-45deg) translateY(-35px) translateX(-35px);
-  }
-}
-
-
-@keyframes aniArrow02 {
-  0% {
-    transform:translateX(45px);
-  }
-  100% {
-    transform:translateX(-44px);
-  }
-}
-
-@keyframes borderAni{
-   0% {
-    border:solid 2px white;
-  }
-  100% {    
-    border:solid 2px white; 
-    border-radius:50%;
-  }
-}
-
-#view1 {
-  width: 1100px;
-  margin: 0 auto;
-}
 
 .dlo p {
   color: white;
@@ -1245,7 +1056,7 @@ figcaption {
     "side-bit card-q card-q card-b"
     "side-bit card-text card-text card-b";
   max-width: 60%;
-box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px, rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
+box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rgba(169, 0, 220, 0.2) 15px 15px, rgba(169, 0, 220, 0.1) 20px 20px, rgba(169, 0, 220, 0.05) 25px 25px, rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
   margin: 20px 20px 60px auto;
   background-color: white;
 }
@@ -1343,3 +1154,31 @@ box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, 
         padding: 2rem;
     }
 }
+
+.arrow {
+	width: 60px;
+	height: 82px;
+	position: absolute; /* don't forget set container to relative */
+	left: 92%;
+	margin-left: 0px;
+	bottom: 5%;
+  z-index:999;
+}
+/* set arrow styles */
+.arrow path {
+	stroke: black;
+	stroke-width: 2px;
+	fill: transparent;	
+	animation: down 2s infinite;
+}
+/* arrow keyframe animation */
+@keyframes down{
+0% { opacity:0 }
+25% { opacity:1 }
+75% { opacity:0 }
+100% { opacity:0 }
+}
+/* arrow animation delay */
+.arrow path.a1{	animation-delay:-1s; }
+.arrow path.a2{	animation-delay:-.5s; }
+.arrow path.a3{	animation-delay:0s; }

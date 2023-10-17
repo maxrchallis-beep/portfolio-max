@@ -131,12 +131,16 @@ footer {
   text-align: center;
   font-size: 14px;
   font-family: 'Barlow', sans-serif;
+
 }
 
  label {
   padding: 6px;
 }
 
+.iconcc {
+  position: absolute;
+}
 
 .sbs {
   display: flex;
@@ -1324,6 +1328,7 @@ footer {
   text-align: center;
   font-size: 14px;
   font-family: 'Barlow', sans-serif;
+ left: 50%;
 }
 
  label {

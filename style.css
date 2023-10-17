@@ -346,6 +346,21 @@ footer a {
 nav li a {
     text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
+    border-right:0;
+    background-image: linear-gradient(
+    to right,
+    #3686e9,
+    #3686e9 50%,
+    white 50%
+  );
+    background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
 }
 
 .dropdown-content a {
@@ -427,6 +442,8 @@ footer a:hover {
   letter-spacing: 0.1rem;
   transition: 0.6s;
   z-index: 1;
+      border-right: 4px solid yellow;
+  
 }
 
 .button:hover {
@@ -435,15 +452,14 @@ footer a:hover {
 
 .button::before {
   content: '';
+  background: yellow;
+  display: block;
   position: absolute;
-  top: 0;
+  bottom: -3px;
   left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--color);
-  z-index: -1;
-  transform: scale(0);
-  transition: 0.1s;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
 }
 
 .button:hover::before {

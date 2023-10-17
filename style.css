@@ -1074,6 +1074,8 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
   object-fit: cover;
 }
 
+
+
 .card-title {
     grid-area: card-title;
     margin: 0;

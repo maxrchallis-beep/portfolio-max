@@ -168,7 +168,7 @@ h1 a {
 }
 
 .top {
-  width: 75%;
+  width: 70%;
   margin: auto;
 }
 
@@ -182,7 +182,7 @@ h1 a {
   
   .ani {
 position: absolute;
-    width: 22%;
+    width: 30%;
     z-index: -9999;
 box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
   }
@@ -1356,7 +1356,7 @@ figcaption {
     "side-bit card-subtitle card-title card-title"
     "side-bit card-q card-q card-b"
     "side-bit card-text card-text card-b";
-  max-width: 700px;
+  max-width: 60%;
 box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px, rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
   margin: 20px 20px 60px auto;
   background-color: white;
@@ -1369,7 +1369,8 @@ box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, 
 }
 
 .cardme-img {
-  width: 400px;
+  height: 100%;
+  object-fit: fill;
 }
 
 .card-title {

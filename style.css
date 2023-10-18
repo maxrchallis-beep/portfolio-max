@@ -310,6 +310,11 @@ strong {
     width: 70%;
 }
 
+.ghome {
+  margin: auto;
+    width: 70%;
+}
+
 .gd {
   display: flex;
   flex-direction: row;

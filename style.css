@@ -1134,6 +1134,10 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
   max-height: 20px;
 }
 
+.card-q strong {
+  padding-right: 20px;
+}
+
 .card-b {
   grid-area: card-b;
   max-width: 30px;

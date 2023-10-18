@@ -95,7 +95,7 @@ h3 {
     color: black;
     text-align: center;
     padding-bottom: 0px;
-  padding-top: 40px;
+  padding-top: 20px;
 	font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -311,7 +311,20 @@ strong {
     padding: 12px;
 }
 
+.web {
+   margin: auto;
+    width: 85%;
+  display: flex;
+}
 
+.web img {
+    width: 20%;
+    padding: 12px;
+}
+
+.web p {
+  text-align: center;
+}
 
 .smallformats img {
   width: 46%;

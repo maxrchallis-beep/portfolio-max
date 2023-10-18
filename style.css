@@ -1105,7 +1105,8 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     background-color: #A900DC;
     color: white;
     padding: .5em;
-    max-height: 20px;
+    max-height: 40px;
+    justify-self: end;
 }
 
 .card-subtitle {
@@ -1117,6 +1118,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     padding: .5em;
   text-align: left;
   max-height: 20px;
+      justify-self: end;
 }
 
 .card-text {
@@ -1209,7 +1211,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 .arrow path.a3{	animation-delay:0s; }
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
@@ -2315,7 +2317,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 
 .card-text {
     grid-area: card-text;
-    font-size: .9rem;
+    font-size: .0.875rem;
     font-weight: 400;
     padding: 1.5em;
 }
@@ -2343,33 +2345,6 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
   display: block;
 }
 
-@media screen and (max-width: 550px) {
-    section .cardme {
-        grid-template-columns: 1fr;
-        padding: 1.5rem 3rem;
-    }
-
-    .cardme {
-        grid-template-areas: 
-        "card-title card-subtitle card-title card-title"
-        "side-bit card-q card-q card-q"
-        "side-bit card-text card-text card-text"
-        "side-bit card-text card-text card-text";
-    }
-
-    .card-title {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-    .card-subtitle {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-}
 
 .arrow {
 	width: 60px;
@@ -3512,7 +3487,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 
 .card-text {
     grid-area: card-text;
-    font-size: .9rem;
+    font-size: 0.625rem;
     font-weight: 400;
     padding: 1.5em;
 }
@@ -3540,33 +3515,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
   display: block;
 }
 
-@media screen and (max-width: 550px) {
-    section .cardme {
-        grid-template-columns: 1fr;
-        padding: 1.5rem 3rem;
-    }
 
-    .cardme {
-        grid-template-areas: 
-        "card-title card-subtitle card-title card-title"
-        "side-bit card-q card-q card-q"
-        "side-bit card-text card-text card-text"
-        "side-bit card-text card-text card-text";
-    }
-
-    .card-title {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-    .card-subtitle {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-}
 
 .arrow {
 	width: 60px;

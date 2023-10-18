@@ -281,6 +281,19 @@ strong {
     padding: 12px;
 }
 
+.typob {
+  display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  text-align: center;
+}
+
+.typob img {
+    width: 30%;
+    padding: 12px;
+}
+
 .typo p {
     text-align: center;
 }
@@ -319,6 +332,10 @@ strong {
     width: 70%;
 }
 
+.vidz {
+  margin: auto;
+    width: 70%;
+}
 
 .gprj {
   margin: auto;

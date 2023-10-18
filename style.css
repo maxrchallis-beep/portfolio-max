@@ -253,6 +253,10 @@ strong {
       align-items: center;
 }
 
+.twothree {
+  display: flex;
+}
+
 .about p {
     color: black;
   padding-left:180px;
@@ -1101,7 +1105,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     grid-area: card-title;
     margin: 0;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     background-color: #A900DC;
     color: white;
     padding: .5em;
@@ -1113,7 +1117,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     grid-area: card-subtitle;
     margin: 0;
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: black;
     padding: .5em;
   text-align: left;
@@ -1129,7 +1133,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 
 .card-q {
     grid-area: card-q;
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     font-weight: 500;
     text-align: center;
     padding-top: 10px;
@@ -1154,33 +1158,6 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
   display: block;
 }
 
-@media screen and (max-width: 550px) {
-    section .cardme {
-        grid-template-columns: 1fr;
-        padding: 1.5rem 3rem;
-    }
-
-    .cardme {
-        grid-template-areas: 
-        "card-title card-subtitle card-title card-title"
-        "side-bit card-q card-q card-q"
-        "side-bit card-text card-text card-text"
-        "side-bit card-text card-text card-text";
-    }
-
-    .card-title {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-    .card-subtitle {
-        font-weight: 500;
-        font-size: 1.8rem;
-        text-align: center;
-        padding: 2rem;
-    }
-}
 
 .arrow {
 	width: 60px;
@@ -1219,6 +1196,41 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     padding: 1.5em;
 }
   
+        section .cardme {
+        grid-template-columns: 1fr;
+        padding: 1.5rem 3rem;
+    }
+
+    .cardme {
+        grid-template-areas: 
+        "card-title card-subtitle card-title card-title"
+        "side-bit card-q card-q card-q"
+        "side-bit card-text card-text card-text"
+        "side-bit card-text card-text card-text";
+    }
+
+    .card-title {
+        font-weight: 500;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 2rem;
+    }
+    .card-subtitle {
+        font-weight: 500;
+        font-size: 1.4rem;
+        text-align: center;
+        padding: 2rem;
+    }
+  
+  .card-q {
+    grid-area: card-q;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+  max-height: 20px;
+}
+  
 }
 
 @media screen and (max-width: 400px) {
@@ -1238,16 +1250,25 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 
     .card-title {
         font-weight: 500;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         text-align: center;
         padding: 2rem;
     }
     .card-subtitle {
         font-weight: 500;
-        font-size: 1.8rem;
+        font-size: 1.2rem;
         text-align: center;
         padding: 2rem;
     }
+  
+  .card-q {
+    grid-area: card-q;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 10px;
+  max-height: 20px;
+}
   
     .card-text {
     grid-area: card-text;

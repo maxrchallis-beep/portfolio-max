@@ -313,8 +313,10 @@ strong {
 
 .web {
    margin: auto;
-    width: 85%;
   display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .web img {
@@ -324,6 +326,10 @@ strong {
 
 .web p {
   text-align: center;
+}
+
+.webz p a {
+  color: purple;
 }
 
 .smallformats img {
@@ -348,6 +354,11 @@ strong {
 .vidz {
   margin: auto;
     width: 70%;
+}
+
+.vidz {
+  margin: auto;
+    width: 80%;
 }
 
 .gprj {

@@ -315,6 +315,14 @@ strong {
     width: 70%;
 }
 
+.animation {
+  width: 100%;
+}
+
+.animation p {
+  width: 70%;
+}
+
 .gd {
   display: flex;
   flex-direction: row;

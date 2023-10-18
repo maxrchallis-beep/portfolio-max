@@ -245,7 +245,7 @@ strong {
 
 .yo {
   margin: auto;
-  display: flex;
+  display: column;
       flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;

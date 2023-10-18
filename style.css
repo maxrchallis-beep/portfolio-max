@@ -238,7 +238,7 @@ strong {
   }
 
 .yo p {
-    padding-top: 20px;
+    padding-top: 2px;
     width: 1000px;
     color: black;
 }
@@ -251,6 +251,7 @@ strong {
     align-content: stretch;
     justify-content: space-evenly;
       align-items: center;
+      margin-top: -126px;
 }
 
 .twothree {
@@ -264,10 +265,16 @@ strong {
       flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+  text-align: center;
 }
 
 .smallformats img {
-  width: 40%
+  width: 46%;
+    padding: 12px;
+}
+
+.smallformats p {
+    text-align: center;
 }
 
 .about p {
@@ -276,6 +283,12 @@ strong {
 }
 
 .about {
+  margin: auto;
+    width: 70%;
+}
+
+
+.gprj {
   margin: auto;
     width: 70%;
 }
@@ -1036,6 +1049,21 @@ figcaption {
   background-color: rgba(255,255,255,.8);
   padding: .2em .5em;
   justify-self: auto;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    text-align: center;
+
+
 }
 
 .container {

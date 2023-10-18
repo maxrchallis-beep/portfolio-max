@@ -259,7 +259,8 @@ strong {
 }
 
 .about {
-  margin: 0;
+  margin: auto;
+    width: 70%;
 }
 
 .gd {
@@ -1072,8 +1073,8 @@ figcaption {
     display: grid;
     grid-template-columns: 1fr 3fr;
     grid-template-areas: 
-    "side-bit card-subtitle card-title card-title"
-    "side-bit card-q card-q card-b"
+    "side-bit card-title card-title card-title"
+    "side-bit card-subtitle card-q card-b"
     "side-bit card-text card-text card-b";
   max-width: 60%;
 box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rgba(169, 0, 220, 0.2) 15px 15px, rgba(169, 0, 220, 0.1) 20px 20px, rgba(169, 0, 220, 0.05) 25px 25px, rgba(0, 0, 0, 0.15) -1.95px 1.95px 2.6px;
@@ -1112,8 +1113,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     margin: 0;
     font-weight: 500;
     font-size: 1.4rem;
-    background-color: #A900DC;
-    color: white;
+    color: black;
     padding: .5em;
   text-align: left;
   max-height: 20px;
@@ -1453,6 +1453,7 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24p
 
 .about {
   margin: 0;
+
 }
 
 .gd {

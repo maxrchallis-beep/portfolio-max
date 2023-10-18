@@ -255,6 +255,19 @@ strong {
 
 .twothree {
   display: flex;
+  flex-direction: column;
+    align-items: center;
+}
+
+.smallformats {
+  display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.smallformats img {
+  width: 40%
 }
 
 .about p {

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
@@ -135,8 +136,9 @@ footer {
 }
 
 .cardme p {
-  text-deoration: none; 
-  color: 
+  text-decoration: none; 
+  color: black;
+  font-family: 'Barlow', sans-serif;
 }
 
  label {
@@ -215,6 +217,11 @@ box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24p
     padding: 60px 200px 60px 60px;
     border-radius: 120px;
   }
+
+strong {
+  font-weight: bold;
+  font-family: 'Barlow', sans-serif;
+}
 
   .content2 {
     position: absolute;
@@ -1114,8 +1121,7 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
 
 .card-text {
     grid-area: card-text;
-    font-size: .9rem;
-    font-weight: 400;
+    font-size: 1rem;
     padding: 1.5em;
 }
 

@@ -268,6 +268,23 @@ strong {
   text-align: center;
 }
 
+.typo {
+  display: flex;
+      flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  text-align: center;
+}
+
+.typo img {
+    width: 30%;
+    padding: 12px;
+}
+
+.typo p {
+    text-align: center;
+}
+
 .twotwo {
   display: flex;
       flex-direction: row;
@@ -281,9 +298,7 @@ strong {
     padding: 12px;
 }
 
-.twotwo p {
-  
-}
+
 
 .smallformats img {
   width: 46%;

@@ -39,7 +39,7 @@ p {
 
 p a {
   font-size: 18px;
-  color: yellow;
+  color: purple;
 }
 
 .web a {
@@ -167,7 +167,6 @@ h1 a {
     padding-top: 0px;
     font-family: 'Carter One', monospace;
   margin-bottom: 0;
-  padd
 }
 
 .top {
@@ -839,7 +838,7 @@ color: yellow;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-color: yellow;
+color: black;
 }
 
 
@@ -908,7 +907,7 @@ color: yellow;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-color: yellow;
+color: white;
 
 }
 
@@ -1047,7 +1046,7 @@ color: yellow;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-color: yellow;
+color: red;
 }
 
 
@@ -1356,6 +1355,33 @@ box-shadow: rgba(169, 0, 220, 0.4) 5px 5px, rgba(169, 0, 220, 0.3) 10px 10px, rg
     text-align: center;
     padding-top: 10px;
   max-height: 20px;
+}
+  
+h1 a {
+     font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Carter One', monospace;
+  margin-bottom: 0;
+}
+  
+  h5 a {
+  color: yellow;
+  text-align: center;
+font-family: 'Atomic Age', cursive;
+  font-size: 40px;
+  margin-top: 0;
+  
+}
+  
+  h2 {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    padding-bottom: 0px;
+	font-family: 'Unica One', cursive;
 }
   
 }

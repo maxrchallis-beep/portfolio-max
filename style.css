@@ -222,6 +222,11 @@ strong {
   font-family: 'Barlow', sans-serif;
 }
 
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
   .content2 {
     position: absolute;
     top: 2%;

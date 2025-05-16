@@ -9,6 +9,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap');
 
 
 header {
@@ -61,8 +62,10 @@ h5 {
 h5 a {
   color: yellow;
   text-align: center;
-  font-family: "Merriweather", serif;
-  font-size: 72px;
+  font-family: "Hanalei Fill", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
   margin-top: 0;
   
 }

@@ -355,12 +355,11 @@ strong {
 
 .about p {
     color: black;
-  padding-left:180px;
 }
 
 .about {
   margin: auto;
-    width: 98%;
+    width: 80%;
 }
 
 .vidz {
@@ -610,7 +609,6 @@ footer a:hover {
 
 .aimg {
   width: 400px;
-  padding-left: 180px;
   float: left;
   padding-right: 40px;
 }
